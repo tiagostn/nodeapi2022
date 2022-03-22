@@ -5,6 +5,9 @@
   "repository": "git@github.com:tiagostn/nodeapi2022.git",
   "author": "tiagostn <tiago.santana@gmail.com>",
   "license": "MIT",
+  "scripts": {
+      "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/main.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "ts-node-dev": "^1.1.8",
