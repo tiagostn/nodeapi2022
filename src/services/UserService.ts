@@ -1,3 +1,3 @@
-export default class UserService  {
-    name: string = "userService";
+export default class UserService {
+    name: string = 'userService';
 }
